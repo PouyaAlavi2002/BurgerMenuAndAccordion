@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Menu</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="bg-orange-500 w-full">
+
+    <div class="text-white flex text-5xl">
+        <span class="rotate-90  cursor-pointer flex ml-4">
+            |||
+        </span>
+    </div>
+    <div class="flex items-center absolute transition-all duration-1000 left-[-100%] " id="burger">
+        <ul class="border w-[440px] ml-8 bg-slate-50 transition-all duration-1000">
+            <li class="cursor-pointer border transition duration-1000" >
+                <div class="flex p-4 text-black border transition-all duration-1000" id="demo">
+                    <h2 class=" text-2xl  w-[90%]">Menu 1</h2>
+                    <span class=" text-3xl" > + </span>
+                </div>
+                <p class="overflow-hidden bg-red-700 transition-all duration-1000 text-justify text-2xl font-arial">SUB MENU 1</p>
+            </li>
+            <li class="cursor-pointer border transition duration-1000">
+                <div class="flex p-4 text-black border transition duration-1000" id="demo">
+                    <h2 class=" text-2xl  w-[90%]">Menu 2</h2>
+                    <span class=" flex text-3xl " > + </span>
+                </div>
+                <p class="overflow-hidden bg-red-700 transition -all duration-1000 text-justify text-2xl font-arial">SUB MENU 2</p>
+            </li>
+            <li class="cursor-pointer border transition-all duration-1000">
+                <div class="flex p-4 text-black border transition-all duration-1000" id="demo">
+                    <h2 class=" text-2xl w-[90%]">Menu 3</h2>
+                    <span class=" text-3xl" > + </span>
+                </div>
+                <p class="overflow-hidden bg-red-700 transition-all duration-1000 text-justify text-2xl font-arial">SUB MENU 3</p>
+            </li>
+            <li class="cursor-pointer border">
+                <div class="flex p-4 text-black border transition-all duration-1000" id="demo">
+                    <h2 class=" text-2xl w-[90%] ">Menu 4</h2>
+                    <span class=" text-3xl " > + </span>
+                </div>
+                <p class="overflow-hidden bg-red-700 transition-all duration-1000 text-justify text-2xl font-arial">SUB MENU 4</p>
+            </li>
+        </ul>
+    </div>
+
+</body>
+<script src="js/master.js"></script>
+
+</html>
